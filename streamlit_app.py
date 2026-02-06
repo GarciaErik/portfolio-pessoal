@@ -30,7 +30,7 @@ load_css()
 
 # --- Hero Section ---
 st.markdown("""
-<section class="hero">
+<section class="hero" align="center">
     <h1>Erik Marta Garcia</h1>
     <h2>Engenheiro de Machine Learning | Cientista de Dados</h2>
     <p>Transformo dados em modelos escaláveis, prontos para produção e orientados a impacto no negócio.</p>
