@@ -68,20 +68,29 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
+
+
 # --- Projetos ---
-st.markdown("""
-<section class="section" id="projetos">
-    <h3>Projetos em Destaque</h3>
-    <div class="projects">
-        <div class="card">
-            <h4>Previsão de Churn</h4>
-            <p>Modelo de classificação com XGBoost focado em retenção de clientes.</p>
-            <span>ROC-AUC: 0.87</span>
-            <div class="links">
-                <a href="#">GitHub</a>
-                <a href="#">Demo</a>
+pj1, pj2 = st.tabs(["Previsão de Churn", "Análise de Crédito"])
+
+with  pj1:
+
+    st.markdown("""
+    <section class="section" id="projetos">
+        <h3>Projetos em Destaque</h3>
+        <div class="projects">
+            <div class="card">
+                <h4>Previsão de Churn</h4>
+                <p>Modelo de classificação com XGBoost focado em retenção de clientes.</p>
+                <span>ROC-AUC: 0.87</span>
+                <div class="links">
+                    <a href="#">GitHub</a>
+                    <a href="#">Demo</a>
+                </div>
             </div>
-        </div>
+""", unsafe_allow_html = True)
+
+st.markdown("""
         <div class="card">
             <h4>Análise de Crédito</h4>
             <p>Pipeline completo de dados com foco em risco de crédito.</p>
@@ -94,8 +103,10 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# --- Contato ---
 
+
+
+# --- Contato ---
 github, linkedin, email = st.tabs(["GitHub", "LinkedIn", "Email"])
 
 with github:
@@ -114,6 +125,9 @@ with email:
 
     st.header("Imagem")
     st.button("Entre em contato pelo meu E-mail!", type = "secondary")
+
+
+
 
 #st.markdown("""
 #<section class="section footer">
