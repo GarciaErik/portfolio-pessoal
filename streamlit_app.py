@@ -2,14 +2,24 @@
 import streamlit as st
 from pathlib import Path
 
-# --- Configuração da página ---
+# --- CONFIGURANDO ATRIBUTOS DA PÁGINA ---
 st.set_page_config(
-    page_title="Erik Marta Garcia | Portfólio",
+    page_title="Erik Marta Garcia | Engenheiro de Machine Learning",
     page_icon="🚀",
     layout="wide",
 )
 
-# --- Carregar CSS ---
+# --- SEO Básico (meta tags) ---
+st.markdown(
+    """
+    <meta name="description" content="Portfólio profissional de Erik Marta Garcia, Engenheiro de Machine Learning e Cientista de Dados com foco em modelos preditivos, pipelines de ML e soluções orientadas a negócio.">
+    <meta name="keywords" content="Machine Learning Engineer, Cientista de Dados, Python, SQL, Machine Learning, Portfólio, MLOps">
+    <meta name="author" content="Erik Marta Garcia">
+    """,
+    unsafe_allow_html=True
+)
+
+# --- Carregando CSS ---
 def load_css():
     css_path = Path("estilo.css")
     if css_path.exists():
