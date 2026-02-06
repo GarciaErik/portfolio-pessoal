@@ -76,9 +76,9 @@ Os projetos seguem padrões de mercado, com **código modular**, **documentaçã
 
 ## 🌐 Contato
 
-- LinkedIn: https://linkedin.com/in/seu-link  
-- GitHub: https://github.com/seu-usuario  
-- Medium: https://medium.com/@seu-user  
+- LinkedIn: [https://www.linkedin.com/in/erik-marta-garcia-20a082366]
+- GitHub: [https://github.com/GarciaErik](https://github.com/GarciaErik)
+- Medium: [https://medium.com/@seu-user](https://medium.com/@erik.martaneva)
 
 ---
 
