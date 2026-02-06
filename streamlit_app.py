@@ -107,14 +107,14 @@ with github:
     with git2:
         st.button("Visite meu GitHub!", type = "secondary")
 
-st.markdown("""
-<section class="section footer">
-    <h3>Contato</h3>
-    <p>Aberto a oportunidades e projetos desafiadores.</p>
-    <p>
-        <a href="https://linkedin.com">LinkedIn</a> ·
-        <a href="https://github.com">GitHub</a> ·
-        <a href="mailto:email@email.com">Email</a>
-    </p>
-</section>
-""", unsafe_allow_html=True)
+#st.markdown("""
+#<section class="section footer">
+#    <h3>Contato</h3>
+#   <p>Aberto a oportunidades e projetos desafiadores.</p>
+#    <p>
+#        <a href="https://linkedin.com">LinkedIn</a> ·
+#        <a href="https://github.com">GitHub</a> ·
+#        <a href="mailto:email@email.com">Email</a>
+#    </p>
+#</section>
+#""", unsafe_allow_html=True)
