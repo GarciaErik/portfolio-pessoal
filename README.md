@@ -55,7 +55,10 @@ Os projetos seguem padrões de mercado, com **código modular**, **documentaçã
 
 ## 🎓 Formação e Estudos Contínuos
 
-- Formação acadêmica em **[Big Data e Inteligência Análitica / Universidade Anhembi Morumbi]**  
+- 👨🏾‍🎓Formação acadêmica em **[Big Data e Inteligência Análitica / Universidade Anhembi Morumbi]**
+- 📄Certificado de "Formação Cientista de Dados: O Curso Completo 2026" - Udemy
+- 📄Certificado de " Machine Learning e Data Science com Python de A a Z" - Udemy
+  
 - Estudos contínuos em:
   - Machine Learning aplicado  
   - Estatística e Probabilidade  
