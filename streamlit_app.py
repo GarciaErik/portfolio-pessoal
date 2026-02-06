@@ -99,6 +99,7 @@ st.markdown("""
 github, linkedin, email = st.tabs(["GitHub", "LinkedIn", "Email"])
 git1, git2 = st.columns(2)
 lkd1, lkd2 = st.columns(2)
+mail1, mail2 = st.columns(2)
 
 with github:
     
@@ -119,10 +120,10 @@ with linkedin:
 
 with email:
 
-    with lkd1:
+    with mail1:
         st.header("Imagem")
     
-    with lkd2:
+    with mail2:
         st.button("Entre em contato pelo meu E-mail!", type = "secondary")
 
 #st.markdown("""
