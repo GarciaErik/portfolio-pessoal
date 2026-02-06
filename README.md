@@ -55,7 +55,7 @@ Os projetos seguem padrões de mercado, com **código modular**, **documentaçã
 
 ## 🎓 Formação e Estudos Contínuos
 
-- Formação acadêmica em **[Seu Curso / Instituição]**  
+- Formação acadêmica em **[Big Data e Inteligência Análitica / Universidade Anhembi Morumbi]**  
 - Estudos contínuos em:
   - Machine Learning aplicado  
   - Estatística e Probabilidade  
