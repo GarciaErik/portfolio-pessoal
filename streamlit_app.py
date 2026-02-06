@@ -95,6 +95,18 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Contato ---
+
+github, linkedin, email = st.tabs(["GitHub", "LinkedIn", "Email"])
+git1, git2 = st.columns(2)
+
+with github:
+    
+    with git1:
+        st.header("Imagem")
+    
+    with git2:
+        st.button("Visite meu GitHub!", type = "secondary")
+
 st.markdown("""
 <section class="section footer">
     <h3>Contato</h3>
